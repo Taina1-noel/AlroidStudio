@@ -4,26 +4,26 @@
     <item
         android:id="@+id/menu_home"
         android:title="Home"
-        android:icon="@android:drawable/ic_menu_view" />
+        android:icon="@drawable/ic_home" />
 
     <item
         android:id="@+id/menu_timer"
         android:title="Timer"
-        android:icon="@android:drawable/ic_media_play" />
+        android:icon="@drawable/ic_timer" />
 
     <item
         android:id="@+id/menu_profile"
         android:title="Profile"
-        android:icon="@android:drawable/ic_menu_myplaces" />
+        android:icon="@drawable/ic_profile" />
 
     <item
         android:id="@+id/menu_progress"
-        android:title="Progress"
-        android:icon="@android:drawable/ic_menu_agenda" />
+        android:title="Flashcards"
+        android:icon="@drawable/ic_flashcards" />
 
     <item
         android:id="@+id/menu_music"
         android:title="Music"
-        android:icon="@android:drawable/ic_media_ff" />
+        android:icon="@drawable/ic_music" />
 
 </menu>

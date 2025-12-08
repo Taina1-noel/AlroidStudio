@@ -7,6 +7,18 @@
     android:padding="24dp"
     android:background="@color/white">
 
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StudySync"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <!-- Title -->
     <TextView
         android:id="@+id/tvTitle"
@@ -17,7 +29,8 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="95dp"/>
 
     <!-- Quote -->
     <TextView
